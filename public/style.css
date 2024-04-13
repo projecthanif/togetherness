@@ -2995,3 +2995,14 @@ h6 {
         line-height: 42px;
     }
 }
+
+.text-justify
+{
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+}

@@ -18,13 +18,16 @@
                 <div class="tc _o">
                     <div class="animate_left jn/2">
                         <h1 class="fk vj zp or kk wm wb">TOGETHERNESS SUPREME NETWORK AFRICA
-                            {{-- <br>
-                        …CRADLE OF GREAT MINDs --}}
                         </h1>
-                        <p class="fq">
-                            WE CREAT A STRONG FOUNDATION FOR LEARNING AND DEVELOPMENT… SOLVING AFRICANs MOST COMPLEX
-                            PROBLEM THROUGH EDUCATION, INNOVATION, COLLABORATION AND INCLUSION
-                        </p>
+                        <h4 class="fk vj zp">…CRADLE OF GREAT MINDs</h4>
+
+                        <br>
+                        <br>
+                        <h5>Our Goal is simple:</h5>
+                        <p class="fq text-center">
+                            To create a platform of opportunities for young people with a robust toolkit to elevate ideas and pursue entrepreneurship
+                            <br>
+                            ...Solving African Most Complex Problem Through Technology, Innovation, Collaboration And Inclusion.                        </p>
                     </div>
                 </div>
             </div>
@@ -55,8 +58,7 @@
                         <h2 class="fk vj zp pr kk wm qb">
                             WE ARE UBUNTU COMMUNITY
                         </h2>
-                        {{-- <p class="uo">is a non-profit organization tasked with the vision of providing innovative
-                        solution to social problems.</p> --}}
+                        <p class="uo">We cant solve our problems with the same thinking we used to create them.’ – albert einstein</p>
                     </div>
                 </div>
             </div>
@@ -85,26 +87,23 @@
             <!-- Section Title End -->
 
             <div class="bb ze i va ki xn xq jb jo">
-                <p class="uo">TOGETHERNESS SUPREME NETWORK AFRICA is a non-profit organization tasked with the
-                    vision of providing innovative solution to social problems.
+                <p class="uo text-justify">TOGETHERNESS SUPREME NETWORK AFRICA is a Pan-African integrated social innovation community founded in 2018. It is a platform that facilitates creativity and innovation development, with the mission to foster regional prosperity by opening door steps to new opportunities and creating an accelerating hub that cultivates a consolidating tech structure that empowers business development and entrepreneurship through collaborative and inclusive growth network.
                 </p>
-                <p class="uo">
+                <br>
+                <p class="uo text-justify">
                     The foundation is established with the aim to give young people a forum, opportunity and collective
                     action… strategized on addressing human puzzling issues – from a continental perspective – such as
                     Disease, Hunger, Injustice, Pollution, Poverty, Prejudice and War; with the goal of attending an
-                    ideal Africa – a continent of peace and prosperity.
+                    ideal Africa - a continent of peace and prosperity.
                 </p> <br>
-                <p class="uo">
-                    TSN-AFRICA is platform for development and excellence. We work with the goal to provide access to a
-                    better living through education, innovation and capacity building programs for young people in
-                    Africa; with the mission to advance learning and promote human capital development to create an
-                    inclusive and equitable continent.
+                <p class="uo text-justify">
+                    We work with the vision to nurture the ideas of young talents and creative minds… creating a platform that allows them to explore their evolving purpose and realize an impactful existence while providing them access to a meaningful living through tech support system, innovation and capacity building programs and to create an enabling environment to empower skills and opportunity to drive lucrative ideas, with the goal to promote human capital development and achieving an equitable continent. 
                 </p>
             </div>
         </section>
 
         <!-- ===== Services Start ===== -->
-        <section class="lj tp kr">
+        <section class="lj tp kr pn">
             <!-- Section Title Start -->
             <div x-data="{ sectionTitle: `OUR VALUES`, sectionTitleText: `VISION` }">
                 <div class="animate_top bb ze rj ki xn vq">
@@ -116,15 +115,12 @@
             <!-- Section Title End -->
             <div class="bb ze ki xn yq mb en">
                 <p class="uo">
-                    Setting across a consolidating ground for excellence and transformation... Working together as a
-                    team with visionary organizations to provide human economy stability in our quest to gain an ideal
-                    Africa!
+                    Building a solid ground for Excellence and Transformation
                 </p>
             </div>
-        </section>
-        <section class="lj tp kr">
-            <!-- Section Title Start -->
-            <div x-data="{ sectionTitleText: `MISSION` }">
+
+             <!-- Section Title Start -->
+             <div x-data="{ sectionTitleText: `MISSION` }">
                 <div class="animate_top bb ze rj ki xn vq">
                     {{-- <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b"> --}}
                     {{-- </h2> --}}
@@ -134,10 +130,32 @@
             <!-- Section Title End -->
             <div class="bb ze ki xn yq mb en">
                 <p class="uo">
-                    Improving human development through education, innovation and inclusion
+                    Improving Human Capital Development through Technology, Innovation and Inclusion.
                 </p>
             </div>
         </section>
+
+        <section class="flex">
+            <div class="flex">
+                <!-- Service Item -->
+                <div class="animate_top sg oi pi zq ml il am cn _m">
+                    <img src="images/icon-04.svg" alt="Icon" />
+                    <h4 class="ek zj kk wm nb _b">BUILDING</h4>
+                    <p>Building a people of integrity and capability for social transformation.</p>
+                </div>
+
+                <!-- Service Item -->
+                <div class="animate_top sg oi pi zq ml il am cn _m">
+                    <img src="images/icon-05.svg" alt="Icon" />
+                    <h4 class="ek zj kk wm nb _b">TRANSFORMATION</h4>
+                    <p>Transforming human capital development.</p>
+                </div>
+
+               
+               
+            </div>
+        </section>
+       
         <!-- ===== Services End ===== -->
 
         <!-- ===== Services Start ===== -->
