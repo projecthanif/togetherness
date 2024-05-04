@@ -58,11 +58,10 @@
                     </label> --}}
                 </div>
 
-                <a href="signin.html" :class="{ 'nk yl': page === 'home', 'ok': page === 'home' && stickyMenu }"
-                    class="ek pk xl">Sign In</a>
-                <a href="signup.html"
-                    :class="{ 'hh/[0.15]': page === 'home', 'sh': page === 'home' && stickyMenu }"
-                    class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
+                {{-- <a href="signin.html" :class="{ 'nk yl': page === 'home', 'ok': page === 'home' && stickyMenu }"
+                    class="ek pk xl">Sign In</a> --}}
+                <a href="/admin" :class="{ 'hh/[0.15]': page === 'home', 'sh': page === 'home' && stickyMenu }"
+                    class="lk gh dk rg tc wf xf _l gi hi">Sign In</a>
             </div>
         </div>
     </div>

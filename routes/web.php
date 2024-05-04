@@ -3,6 +3,7 @@
 use App\Livewire\Blog;
 use App\Livewire\Program;
 use App\Livewire\Services;
+use App\Livewire\Store;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +27,4 @@ Route::get('services', Services::class)->name('services');
 Route::get('/blog', Blog::class)->name('blog');
 
 
-Route::get('/store', function () {
-    return response('store page');
-})->name('store');
+Route::get('/store',Store::class)->name('store');
