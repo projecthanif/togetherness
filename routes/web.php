@@ -1,5 +1,8 @@
 <?php
 
+use App\Livewire\Blog;
+use App\Livewire\Program;
+use App\Livewire\Services;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,14 +16,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', \App\Livewire\Index::class);
 
-Route::get('/program', function () {
-    return view('program');
-})->name('program');
+Route::get('/program', Program::class)->name('program');
 
-Route::get('services', function () {
-    return view('services');
-})->name('services');
+Route::get('services', Services::class)->name('services');
+
+
+Route::get('/blog', Blog::class)->name('blog');
+
+
+Route::get('/store', function () {
+    return response('store page');
+})->name('store');

@@ -1,6 +1,4 @@
-@extends('app')
-
-@section('app')
+<div>
     <main>
         <!-- ===== Blog Single Start ===== -->
         <section class="gj qp gr hj rp hr">
@@ -50,4 +48,4 @@
         <!-- ===== Blog Single End ===== -->
         <!-- ===== CTA End ===== -->
     </main>
-@endsection
+</div>

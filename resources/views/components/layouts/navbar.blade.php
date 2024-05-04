@@ -33,16 +33,16 @@
             <nav>
                 <ul class="tc _o sf yo cg ep">
                     <li><a href="/" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
-                    <li><a href="#features" class="xl">Features</a></li>
-                    <li><a href="#support" class="xl">Support</a></li>
                     <li><a href="{{ route('program') }}" class="xl">Program</a></li>
                     <li><a href="{{ route('services') }}" class="xl">Services</a></li>
+                    <li><a href="{{ route('blog') }}" class="xl">Blog</a></li>
+                    <li><a href="{{ route('store') }}" class="xl">Store</a></li>
                 </ul>
             </nav>
 
             <div class="tc wf ig pb no">
                 <div class="pc h io pa ra" :class="navigationOpen ? '!-ud-visible' : 'd'">
-                    <label class="rc ab i">
+                    {{-- <label class="rc ab i">
                         <input type="checkbox" :value="darkMode" @change="darkMode = !darkMode"
                             class="pf vd yc uk h r za ab" />
                         <!-- Icon Sun -->
@@ -55,15 +55,14 @@
                         </svg>
                         <!-- Icon Sun -->
                         <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
-                    </label>
+                    </label> --}}
                 </div>
 
-                {{-- <a href="signin.html"
-                    :class="{ 'nk yl': page === 'home', 'ok': page === 'home' && stickyMenu }"
+                <a href="signin.html" :class="{ 'nk yl': page === 'home', 'ok': page === 'home' && stickyMenu }"
                     class="ek pk xl">Sign In</a>
                 <a href="signup.html"
                     :class="{ 'hh/[0.15]': page === 'home', 'sh': page === 'home' && stickyMenu }"
-                    class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a> --}}
+                    class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
             </div>
         </div>
     </div>
