@@ -42,7 +42,7 @@
 
             <div class="tc wf ig pb no">
                 <div class="pc h io pa ra" :class="navigationOpen ? '!-ud-visible' : 'd'">
-                    {{-- <label class="rc ab i">
+                    <label class="rc ab i">
                         <input type="checkbox" :value="darkMode" @change="darkMode = !darkMode"
                             class="pf vd yc uk h r za ab" />
                         <!-- Icon Sun -->
@@ -54,13 +54,14 @@
                                 fill="" />
                         </svg>
                         <!-- Icon Sun -->
-                        <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
-                    </label> --}}
+                        <img class="xc nm" src="{{ asset('images/icon-moon.svg') }}" alt="Moon" />
+                    </label>
                 </div>
 
                 {{-- <a href="signin.html" :class="{ 'nk yl': page === 'home', 'ok': page === 'home' && stickyMenu }"
                     class="ek pk xl">Sign In</a> --}}
-                <a href="/admin" :class="{ 'hh/[0.15]': page === 'home', 'sh': page === 'home' && stickyMenu }"
+                <a href="/admin"
+                    :class="{ 'hh/[0.15]': page === 'home', 'sh': page === 'home' && stickyMenu }"
                     class="lk gh dk rg tc wf xf _l gi hi">Sign In</a>
             </div>
         </div>

@@ -1,10 +1,11 @@
 <!-- Blog Item -->
 <div class="animate_top sg vk rm xm">
     <div class="c rc i z-1 pg">
-        <img class="w-full" src="images/blog-01.png" alt="Blog" />
+        <img class="w-full"
+            src="{{ $blog->thumbnail === null ? asset('images/blog-01.png') : asset("/storage/{$blog->thumbnail}") }} ">
 
         <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-            <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+            <a href="/blog/{{ $blog->slug }}" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
         </div>
     </div>
 
@@ -20,7 +21,7 @@
             </div>
         </div>
         <h4 class="ek tj ml il kk wm xl eq lb">
-            <a href="blog-single.html">Free advertising for your online business</a>
+            <a href="">{{ $blog->title }}</a>
         </h4>
     </div>
 </div>

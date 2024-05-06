@@ -5,8 +5,8 @@
             <div class="tc uf ap gg fp">
                 <div class="animate_top zd/2 to/4">
                     <a href="/">
-                        <img class="om" src="{{ asset('togetherness.png') }}" alt="Logo Light"/>
-                        <img class="xc nm" src="{{ asset('togetherness.png') }}" alt="Logo Dark"/>
+                        <img class="om" src="{{ asset('togetherness.png') }}" alt="Logo Light" />
+                        <img class="xc nm" src="{{ asset('togetherness.png') }}" alt="Logo Dark" />
                     </a>
 
                     <p class="lc fb">…CRADLE OF GREAT MINDs</p>
@@ -45,11 +45,11 @@
                         </ul>
                     </div>
 
-                    {{-- <div class="animate_top">
+                    <div class="animate_top">
                         <h4 class="kk wm tj ec">Newsletter</h4>
                         <p class="ac qe">Subscribe to receive future updates</p>
 
-                        <form action="https://formbold.com/s/unique_form_id" method="POST">
+                        <form action="" method="POST">
                             <div class="i">
                                 <input type="text" placeholder="Email address"
                                     class="vd sm _g ch pm vk xm rg gm dm dn gi mi" />
@@ -71,7 +71,7 @@
                                 </button>
                             </div>
                         </form>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
             </div>
 
             <div class="animate_top">
-                <p>&copy; 2025 Base. All rights reserved</p>
+                <p>&copy; 2025 Togetherness. All rights reserved</p>
             </div>
         </div>
         <!-- Footer Bottom -->

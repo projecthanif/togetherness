@@ -333,86 +333,11 @@
 
             <div class="bb ye ki xn vq jb jo">
                 <div class="wc qf pn xo zf iq">
-                    <!-- Blog Item -->
-                    <div class="animate_top sg vk rm xm">
-                        <div class="c rc i z-1 pg">
-                            <img class="w-full" src="images/blog-01.png" alt="Blog" />
-
-                            <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
-                            </div>
-                        </div>
-
-                        <div class="yh">
-                            <div class="tc uf wf ag jq">
-                                <div class="tc wf ag">
-                                    <img src="images/icon-man.svg" alt="User" />
-                                    <p>Musharof Chy</p>
-                                </div>
-                                <div class="tc wf ag">
-                                    <img src="images/icon-calender.svg" alt="Calender" />
-                                    <p>25 Dec, 2025</p>
-                                </div>
-                            </div>
-                            <h4 class="ek tj ml il kk wm xl eq lb">
-                                <a href="blog-single.html">Free advertising for your online business</a>
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- Blog Item -->
-                    <div class="animate_top sg vk rm xm">
-                        <div class="c rc i z-1 pg">
-                            <img class="w-full" src="images/blog-02.png" alt="Blog" />
-
-                            <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
-                            </div>
-                        </div>
-
-                        <div class="yh">
-                            <div class="tc uf wf ag jq">
-                                <div class="tc wf ag">
-                                    <img src="images/icon-man.svg" alt="User" />
-                                    <p>Musharof Chy</p>
-                                </div>
-                                <div class="tc wf ag">
-                                    <img src="images/icon-calender.svg" alt="Calender" />
-                                    <p>25 Dec, 2025</p>
-                                </div>
-                            </div>
-                            <h4 class="ek tj ml il kk wm xl eq lb">
-                                <a href="blog-single.html">9 simple ways to improve your design skills</a>
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- Blog Item -->
-                    <div class="animate_top sg vk rm xm">
-                        <div class="c rc i z-1 pg">
-                            <img class="w-full" src="images/blog-03.png" alt="Blog" />
-
-                            <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                                <a href="./blog-single.html" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
-                            </div>
-                        </div>
-
-                        <div class="yh">
-                            <div class="tc uf wf ag jq">
-                                <div class="tc wf ag">
-                                    <img src="images/icon-man.svg" alt="User" />
-                                    <p>Musharof Chy</p>
-                                </div>
-                                <div class="tc wf ag">
-                                    <img src="images/icon-calender.svg" alt="Calender" />
-                                    <p>25 Dec, 2025</p>
-                                </div>
-                            </div>
-                            <h4 class="ek tj ml il kk wm xl eq lb">
-                                <a href="blog-single.html">Tips to quickly improve your coding speed.</a>
-                            </h4>
-                        </div>
-                    </div>
+                    @foreach ($blog as $item)
+                        @include('components.layouts.blogcard', [
+                            'blog' => $item,
+                        ])
+                    @endforeach
                 </div>
             </div>
         </section>
@@ -428,7 +353,7 @@
             <img src="images/shape-13.svg" alt="Shape" class="h r q" />
 
             <!-- Section Title Start -->
-            <div x-data="{ sectionTitle: `Let’s Stay Connected`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.` }">
+            <div x-data="{ sectionTitle: `Let's Stay Connected`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.` }">
                 <div class="animate_top bb ze rj ki xn vq">
                     <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
                     </h2>
@@ -513,7 +438,7 @@
                     </div>
 
                     <div class="animate_top w-full nn/5 vo/3 vk sg hh sm yh tq">
-                        <form action="https://formbold.com/s/unique_form_id" method="POST">
+                        <form action="" method="POST">
                             <div class="tc sf yo ap zf ep qb">
                                 <div class="vd to/2">
                                     <label class="rc ac" for="fullname">Full name</label>

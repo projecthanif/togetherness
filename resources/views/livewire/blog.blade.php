@@ -15,11 +15,12 @@
 
         <div class="bb ye ki xn vq jb jo">
             <div class="wc qf pn xo zf iq">
-                @for ($i = 0; $i < 6; $i++)
-                    @include('components.layouts.blogcard')
-                @endfor
+                @foreach ($blogs as $blog)
+                    @include('components.layouts.blogcard', ['blog' => $blog])
+                @endforeach
             </div>
         </div>
+        {{-- {{ $blogs->links('vendor.livewire.custom-pagination') }} --}}
     </section>
     <!-- ===== Blog End ===== -->
 
