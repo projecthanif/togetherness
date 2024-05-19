@@ -15,14 +15,14 @@
                             <p class="lk">
                                 WE ARE BUILDING THE GREATEST PLATFORM TO ENABLE AFRICAN ENTREPRENEURS AND INNOVATORS EXPLORE
                                 <br> <br>
-                                OUR MISSION FOR THIS IS TO CREATE ECONOMIC OPPORTUNITIES FOR YOUNG PEOPLE TO LEVERAGE ON
+                                OUR MISSION FOR THIS IS TO CREATE ECONOMIC OPPORTUNITY FOR YOUNG PEOPLE TO LEVERAGE ON
                             </p>
                         </div>
-                        {{-- <div class="animate_right bf">
-                            <a href="#" class="vc ek kk hh rg ol il cm gi hi">
-                                Get Started Now
-                            </a>
-                        </div> --}}
+{{--                         <div class="animate_right bf">--}}
+{{--                            <a href="#" class="vc ek kk hh rg ol il cm gi hi">--}}
+{{--                                Get Started Now--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </section>
@@ -48,14 +48,6 @@
                             African development. The program is organized to enable young elites engage in an interactive
                             forum to discuss the progress of Africa.
                         </p>
-                        <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb gb">ACCELERATION CONFERENCE</h2>
-                        <p>
-                            Acceleration Conference is an entrepreneurship program designed to connect African young
-                            entrepreneurs, innovators, startups; to investors, venture capitalists and micro-finance
-                            establishment. The aim is to enable young people build powerful connection – both in business,
-                            innovation technology and creativity; providing them with access to scale, grow and explore
-                            their ideas.
-                        </p>
                         <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb qb">INTERNATIONAL RICH-MIND SEMINAR
                         </h2>
                         <p>
@@ -68,7 +60,7 @@
                             This project geared towards helping the poor with access to quality education, health care
                             system and other charitable works through scholarship, donations and sponsorship.
                         </p>
-                        <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb qb">AUGUEST SUMMIT
+                        <h2 class="ek vj 2xl:ud-text-title-lg kk wm nb qb">AUGUST SUMMIT
                         </h2>
                         <p>
                             An annual online virtual conference that is organized to inspire young African entrepreneurs and

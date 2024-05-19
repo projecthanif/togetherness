@@ -10,7 +10,17 @@ class Index extends Component
 {
     public function render()
     {
-        $blog = Blog::all()->random(3);
+        $blog = Blog::all();
+
+        $count = $blog->count();
+
+        if ($count === 0) {
+            $blog = [];
+        } else if ($count > 3) {
+            $blog->random(4);
+        } else {
+            $blog->random($count);
+        }
 
         return view('livewire.index', [
             'blog' => $blog

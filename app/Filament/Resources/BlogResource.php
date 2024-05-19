@@ -75,6 +75,9 @@ class BlogResource extends Resource
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable(),
+                TextColumn::make('views')
+                    ->label('Count of readers')
+                    ->badge(),
                 SpatieTagsColumn::make('tags')
             ])
             ->filters([

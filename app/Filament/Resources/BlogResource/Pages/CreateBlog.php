@@ -9,4 +9,9 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateBlog extends CreateRecord
 {
     protected static string $resource = BlogResource::class;
+
+    public static function canCreateAnother(): bool
+    {
+        return false;
+    }
 }
